@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2{
+    font-family: 'Young Serif', serif;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color:lightpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    width: 520px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 20px;
+}
+.content{
+    padding: 20px;
+}
+.image{
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+}
+.heading{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 12px 0;
+    color: hsl(24, 5%, 18%);
+}
+.description{
+    font-size: 12px;
+    color:gray;
+    padding-bottom: 25px;
+}
+.title{
+    color: hsl(332, 51%, 32%);
+    font-family:'Outfit', sans-serif;
+    font-size: 15px;
+    padding-left: 35px;
+}
+.preparation-box{
+    background-color: hsl(330, 100%, 98%);
+    margin-bottom: 20px;
+    padding: 6px 0;
+}
+.preparation-list{
+    padding-left: 60px;
+}
+.preparation-list li{
+    font-size: 12px;
+    color:grey;
+    font-weight: 500;
+    margin: 8px 0;
+ }
+span{
+    color:hsl(24, 5%, 18%);
+    font-weight: bold;
+}
+
+.sub-title{
+    color: hsl(14, 45%, 36%);
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.Ingredients-list{
+    padding-left: 24px;
+    margin-bottom: 24px;
+}
+.Ingredients-list li{
+    font-size: 12px;
+    color:grey;
+    font-weight: 500;
+    margin: 8px 0;
+}
+.instructions-list{
+    padding-left: 20px;
+    margin-bottom: 18px;
+}
+.instructions-list li{
+    font-size: 12px;
+    color:grey;
+    font-weight: 500;
+    margin: 8px 0;
+}
+.para{
+   font-size: 12px;
+   color: grey;
+   margin-bottom: 16px;
+}
+.line{
+    margin-top: 6px;
+}
+.nutritions{
+    display: flex;
+}
+.name{
+    color: grey;
+    font-size: 12px;
+}
+.value{
+    color: hsl(14, 45%, 36%);
+    font-size: 12px;
+}
+hr{
+    margin-bottom: 18px;
+}
+.nutritions > *{
+    width: 100%;
+    margin-right: auto;
+}
+
+@media (max-width:600px){
+   h1{
+    margin-top: 2rem;
+   }
+   .container{
+    margin: 0;
+   }
+   .image{
+    padding: 0;
+    border-radius: 0;
+   }
+}
